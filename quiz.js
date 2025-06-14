@@ -3,7 +3,7 @@ function checkAnswer(){
     let inputValue = document.querySelector('input[name="quiz"]:checked');
     let userAnswer = inputValue.value;
 
-    if(userAnswer === correctAnswer){
+    if (userAnswer === correctAnswer){
         document.getElementById('feedback').textContent = 'Correct! Well done.'
         return;
     }
